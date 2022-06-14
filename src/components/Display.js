@@ -1,12 +1,10 @@
 import React from "react";
-import DisplayScreen from "./DisplayScreen";
-import Result from "./Result";
 
-function Display() {
+function Display({ result, transactation }) {
   return (
     <div className="text-right">
-      <DisplayScreen />
-      <Result />
+      <div className="text-orange-500">{transactation ? transactation : 0}</div>
+      <div className="text-2xl">{result ? result : 0}</div>
     </div>
   );
 }

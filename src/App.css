@@ -2,6 +2,7 @@
   text-align: center;
   min-height: 100vh;
   width: 100%;
+  font-family: "Orbitron", sans-serif;
 }
 .container {
   width: 330px;
@@ -25,8 +26,13 @@
   font-family: Share Tech Mono, monospace;
   font-size: 20px;
   cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.transaction {
+  background: rgb(102, 102, 102);
+}
 .acButton {
   background: rgb(172, 57, 57);
 }
